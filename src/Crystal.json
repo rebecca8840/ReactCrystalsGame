@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "purple",
+      "image": "https://media1.popsugar-assets.com/files/thumbor/GCUD079fcW5fnFkEyNZ13O_ebyI/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/03/08/063/n/1922729/0ad0c6d62ceb53d1_32076141683_7617439d00_o.jpg",
+      "guessed": "no"
+    },
+    {
+      "id": 2,
+      "name": "blue",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Beryl-Quartz-d06-134a.jpg",
+      "guessed": "no"
+    },
+    {
+      "id": 3,
+      "name": "pink",
+      "image": "https://img.grouponcdn.com/stores/2Nmfp3kfrbGqZj1tBSSXAS1TrunP/storespi868235-1040x640/v1/c700x420.jpg",
+      "guessed": "no"
+    },
+    {
+      "id": 4,
+      "name": "clear",
+      "image": "https://5.imimg.com/data5/PX/OM/MY-1039884/quartz-crystal-500x500.jpg",
+      "guessed": "no"
+    }
+]

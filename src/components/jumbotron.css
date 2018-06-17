@@ -1,0 +1,20 @@
+body {
+	background-repeat: repeat;
+	background-image: url("../darkness.png");
+    background-attachment: fixed;
+}
+
+.title {
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.jumbo-replace {
+    background: transparent;
+    text-align: center;
+    color: white;
+}
+
+
+/* Set animation below */
