@@ -1,0 +1,7 @@
+.score-box {
+    margin: 2%;
+}
+
+div.card.container.score-box {
+    background-color: deeppink;
+}

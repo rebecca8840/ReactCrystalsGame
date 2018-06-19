@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Header from "./components/jumbotron.js";
 import Contentbox from './components/contentbox';
+import Scorebox from "./components/scorebox";
+import Wins from "./components/wins";
+import Losses from "./components/losses";
 import Crystal from "./Crystal.json";
 
 class App extends Component {
@@ -18,6 +21,9 @@ class App extends Component {
       <div>
       <Header />
       <Contentbox />
+      <Scorebox />
+      <Wins />
+      <Losses />
       </div>
     )
   }
