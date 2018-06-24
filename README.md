@@ -1,3 +1,13 @@
+## What This Is
+
+Just a reworked version of this JQuery game: https://rebecca8840.github.io/CrystalsCollector/
+
+## Acknowledgements Before the React Portion
+
+I'd like to acknowledge the brilliant work of Janelle Monae, Grimes, the curators for the Guardians of the Galaxy soundtrack, and Betty Who's Spotify Takeover playlist for giving me the visuals I needed for this.
+
+Enter React.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
