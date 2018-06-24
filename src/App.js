@@ -6,14 +6,19 @@ import Contentbox from './components/contentbox';
 import Scorebox from "./components/scorebox";
 import Wins from "./components/wins";
 import Losses from "./components/losses";
+import Game from "./components/game";
+import Randomnum from "./components/randomnum";
 import Crystal from "./Crystal.json";
 
 class App extends Component {
-    state = {
-      Crystal: Crystal,
-
-
-    }
+  //   state = {
+  //   Crystal: Crystal,
+  //     Crystal: Crystal,
+  //       wins : 0,
+  //       losses: 0,
+  //       score: 0
+  // };
+  //   }
   
 
   render() {
@@ -21,9 +26,11 @@ class App extends Component {
       <div>
       <Header />
       <Contentbox />
-      <Scorebox />
+      <Randomnum />
       <Wins />
       <Losses />
+      <Game />
+      <Scorebox />
       </div>
     )
   }

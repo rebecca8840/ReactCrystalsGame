@@ -2,7 +2,7 @@ import React from "react";
 import "./scorebox.css"
 
 const Losses = props => (
-<div className="card container score-box">
+<div className="card container wins-losses">
   <div className="card-body">
     {/* <h1 className="card-title">Card title</h1> */}
     {/* <h6 classNcame="card-subtitle">Card subtitle</h6> */}

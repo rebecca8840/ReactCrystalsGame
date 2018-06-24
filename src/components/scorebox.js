@@ -1,17 +1,23 @@
 import React from "react";
 import "./scorebox.css"
+// more accurate way of putting this - yourNum instead of Scorebox *eyeroll*
+
 
 const Scorebox = props => (
 <div className="card container score-box">
   <div className="card-body">
-    {/* <h1 className="card-title">Card title</h1> */}
-    {/* <h6 classNcame="card-subtitle">Card subtitle</h6> */}
-    <div className="card-data">
-    Placeholder till data
+      <div className="card-data">
+      Score: {props.userNum}
+      </div>
     </div>
-    {/* <a href="#" className="card-link">Another link</a> */}
   </div>
-</div>
+
+  // render() {
+  //   return (
+    // this.props.score
+
+  //   )
+  // }
   );
   
 export default Scorebox;
