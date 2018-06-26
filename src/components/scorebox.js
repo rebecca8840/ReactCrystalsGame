@@ -1,6 +1,6 @@
 import React from "react";
 import "./scorebox.css"
-// more accurate way of putting this - yourNum instead of Scorebox *eyeroll*
+// more accurate way of putting this - number of things clicked instead of Scorebox *eyeroll*
 
 
 const Scorebox = props => (

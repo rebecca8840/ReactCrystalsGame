@@ -11,14 +11,41 @@ import Randomnum from "./components/randomnum";
 import Crystal from "./Crystal.json";
 
 class App extends Component {
-  //   state = {
-  //   Crystal: Crystal,
-  //     Crystal: Crystal,
-  //       wins : 0,
-  //       losses: 0,
-  //       score: 0
-  // };
-  //   }
+  const Random = Math.floor(Math.random() * 101+19);
+
+  const ResetNum = Math.floor(Math.random() * 11+1);
+  
+  let userTotal = 0;
+  
+  let wins = 0;
+  
+  let losses = 0;
+  
+  
+  // setClick = id => {
+  //     let currentIndex = this.state.Crystal.findIndex(function(Crystal){
+  //         return (id === Crystal.id)
+  //     });
+  
+  //     if (this.state.score > this.state.Random) {
+  //         this.setState ({
+  //             this.state.losses ++;
+  //         })
+  //     }
+  //         else {
+  //             this.state.wins ++;
+  //         }
+  //     }   
+  
+  //         reset () {
+  //             Random.ResetNum();
+  //         }
+      // The code above is supposed to be the wins/losses going up or down and when the number resets after said win or loss.
+      // if the user score goes above the posted random number then the number of losses increases
+  
+      
+  
+      // Code above is supppooosed to be the onclick eveeennttss
   
 
   render() {
@@ -30,7 +57,8 @@ class App extends Component {
       <Wins />
       <Losses />
       <Game />
-      <Scorebox />
+      <Scorebox /> 
+      {/* scorebox = user score */}
       </div>
     )
   }
